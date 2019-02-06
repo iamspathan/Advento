@@ -1,0 +1,130 @@
+/* Header & Menu Area CSS */
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+#header
+{
+    height: 6em;
+}
+.header_area {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    -webkit-transition-duration: 700ms;
+    transition-duration: 700ms;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 30px;
+    background: black;
+}
+
+.sticky .header_area {
+    background-color: rgba(14, 2, 35, 0.9);
+    height: 80px;
+    z-index: 9999;
+    border-bottom: 10px solid transparent;
+}
+
+.navbar-brand {
+	color:white;
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 70px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: #ffff;
+    font-weight: 700;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    color:#fff;
+    font-size: 25px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color: #7643ea;
+}
+
+.dorne-search-btn > a,
+.dorne-signin-btn > a {
+    color: #fff;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.dorne-search-btn > a i {
+    padding-right: 10px;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-item {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.dropdown-item:hover {
+    background-color: #7643ea;
+    color: #fff;
+}
+
+.dropdown-toggle:after {
+    border: none;
+}
+
+h1
+{
+    
+    font-family: 'Princess Sofia', cursive;
+    font-weight: 1000;
+    color:wheat;
+    line-height: 0.3;
+
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1000;
+    color  :wheat;
+    line-height: 0;
+}
+.dorne-add-listings-btn .btn-dorne-btn
+
+{
+    font-size: 20px;
+    border-radius  :100px;
+    background-color:rgba(67,25,121,0.75);
+    float: left;
+    padding:15px 30px;
+    margin:0;
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.dorne-add-listings-btn .btn-dorne-btn1
+
+{
+    font-size: 20px;
+    border-radius  :100px;
+    background-color:rgba(67,25,121,0.75);
+    float: left;
+    padding:15px 30px;
+    margin:0;
+    display: inline-block;
+    line-height: 20px;
+}
+a{
+    color: white;
+}

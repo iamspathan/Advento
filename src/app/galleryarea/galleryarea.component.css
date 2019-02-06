@@ -1,0 +1,10 @@
+.page-footer
+{
+    background: tan;
+}
+.footer-social-btns > a {
+    display: inline-block;
+    color: #464646;
+    padding: 0 15px;
+    font-size: 14px;
+}

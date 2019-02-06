@@ -1,0 +1,55 @@
+ <!-- ***** Header Area Start ***** -->
+ <header class="header_area" id="header">
+  <div class="container-fluid h-100">
+      <div class="row h-100">
+          <div class="col-12 h-100">
+              <nav class="h-100 navbar navbar-expand-lg">
+                  <img src="/assets/img/core-img/logo (2).png" alt="logo" width="85px" height="85px">
+                  <a class="navbar-brand" href="#">
+                  <h1>Advento</h1>
+                  <h6>The Adventure Hub</h6></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse"
+                   data-target="#dorneNav" aria-controls="dorneNav" 
+                  aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                  
+                  <!-- Nav -->
+                  <div class="collapse navbar-collapse" id="dorneNav">
+                      <ul class="navbar-nav mr-auto" id="dorneMenu">
+
+                          <li class="nav-item" (click)="setTab('home')">
+
+                              <a class="nav-link" [class.active]="tab==='home'" href="#">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item " (click)="setTab('gallery')">
+                              <a class="nav-link" [class.active]="tab==='gallery'" routerLink="/gallery">Gallery </a>
+                          </li>
+                      
+                          <li class="nav-item" (click)="setTab('contactUs')">
+                              <a class="nav-link" [class.active]="tab==='contactUs'" routerLink="/contact">Contact Us</a>
+                          </li>
+                          <li class="nav-item" (click)="setTab('aboutUs')">
+                              <a class="nav-link" [class.active]="tab==='aboutUs'"  routerLink="/about-us">About Us</a>
+                          </li>
+                      </ul>
+                      <!-- Search btn -->
+                      
+                      <!-- Signin btn -->
+                                                  <!-- Add listings btn -->
+                                                  <div class="dorne-add-listings-btn" (click)="setTab('login')">
+                                                    <a class="btn-dorne-btn1"  [class.active]="tab==='login'"   routerLink="/login" ><font color="white">Log In</font></a>
+                            
+                                                </div>
+                      <div class="dorne-add-listings-btn">
+                          <a class="btn-dorne-btn"  routerLink="/signup"><font color="white">Sign Up</font></a>
+
+                      </div>
+                     
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
+</header>
+
+
+<!-- ***** Header Area End ***** -->

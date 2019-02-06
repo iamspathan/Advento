@@ -1,0 +1,31 @@
+.dorne-catagory-area {
+    position: relative;
+    z-index: 9;
+}
+
+.single-catagory-area {
+    background-color:#7643ea;
+    text-align: center;
+    padding: 60px 15px;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+}
+
+.single-catagory-area:hover {
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.all-catagories {
+    position: relative;
+    top: -50%;
+    z-index: 15;
+}
+
+.single-catagory-area .catagory-content img {
+    margin-bottom: 15px;
+}
+
+.single-catagory-area .catagory-content h6 {
+    margin-bottom: 0;
+    color: #fff;
+}
